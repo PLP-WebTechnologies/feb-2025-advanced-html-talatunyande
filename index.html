@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced Html</title>
+    </head>
+    <body>
+<ol type ="i">
+    <li> Orange</li>
+    <li> Mango</li>
+    <li> Banana</li>
+    <li> Pawpaw</li>
+</ol>
+<!--Adding image-->
+<img src ="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-166706-546819.jpg&fm=jpg&_gl=1*rciknt*_ga*MzkwOTE1OTE1LjE3NDI3ODkxNzE.*_ga_8JE65Q40S6*MTc0Mjc4OTE3MC4xLjEuMTc0Mjc4OTE4OC4wLjAuMA.." alt = "Talatu" width = "200" height="200">
+<br><br>
+<img src = "Talatu.jpeg" alt = "Talatu" width ="200" height ="200" >  
+<!-- merging tables-->
+<table border = "1">
+    <thead>
+        <tr>
+        <th>name</th>
+        <th> address</th>
+        <th>mobile</th>
+        <th>email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Talatu </td>
+            <td>Accra</td>
+            <td>0536191817</td>
+            <td>nyandetalatu@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Rahana</td>
+            <td>Accra</td>
+            <td>0536191817</td>
+            <td>nyandetalatu@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Yusif</td>
+            <td>Kumasi</td>
+            <td>0244037991</td>
+            <td>yussif@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Yusif</td>
+            <td>Kumasi</td>
+            <td>0244037991</td>
+            <td>Khadija@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mariam</td>
+                <td>Kumasi</td>
+                <td>0244037991</td>
+                <td>mariam@gmail.com</td>
+                </tr>
+    </tbody>
+</table>
+<br><br>
+<!-- Creating a form for name ,Email, password ,country,-->
+<form action ="index.html" method ="post">
+    <label for name ="name">Name </label>
+    <input type = "text" name ="name" id = "name" placeholder="Please enter your name " required>
+    <br><br>
+    <label for email = "email">Email </label>
+    <input type ="text" name ="email" id ="email" placeholder = "please ender your password" required>
+    <br><br>
+    <label for name = "password">password</label>
+    <input type = "text/numbers" name ="password" id ="password" placeholder="please enter your password" required>
+    <br><br>
+    <!-- form for country-->
+    <label for="country">Country:</label>
+<select id="country" name="country">
+    <option value="usa">USA</option>
+    <option value="uk">UK</option>
+    <option value="canada">Canada</option>
+    <option value ="Ghana">Ghana</option>
+</select>
+<br><br>
+<!-- label for Gender-->
+<label for name = "Gender">Gender :</label>
+<label for name = "male" >male</label>
+<input type = "radio" id = "male" name = "Gender" value = "male" >
+<label for name = "female" >female</label>
+<input type = "radio" id = "female" name = "Gender" value = "female" >
+<br><br> 
+<!-- LABEL FOR hOBBIES-->
+<label for name ="Hobbies">Hobbies :</label>
+<select id="Hobbies" name="Hobbies">
+    <option value="Dancing">Dancing</option>
+    <option value="Singing">Singing</option>
+    <option value="Swiming">Swiming</option>
+    <option value ="Reading">Reading</option>
+</select>
+<br><br>
+<!--label for date-->
+<label for ="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dob">
+<br><br>
+
+    <label for="interest">Select Your Interest:</label><br>
+
+    <input type="radio" id="nursing" name="interest" value="Nursing">
+    <label for="nursing">Nursing</label><br>
+
+    <input type="radio" id="teaching" name="interest" value="Teaching">
+    <label for="teaching">Teaching</label><br>
+
+    <input type="radio" id="engineering" name="interest" value="Engineering">
+    <label for="engineering">Engineering</label><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
